@@ -1,0 +1,277 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color: black;
+    justify-content: space-between;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.Logo{
+    color: white;
+    font-size: 30px;
+    margin: 8px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+}
+
+ul li{
+    width: 140px;
+}
+
+ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+ul li a:hover{
+    color: orangered;
+}
+
+.Submenu1{
+    display: none;
+}
+
+ul li:hover .Submenu1{
+    display: block;
+    position: absolute;
+    background-color: black;
+    text-align: center;
+    align-items: center;
+}
+
+ul li:hover .Submenu1 ul{
+    display: block;
+    list-style: none;
+
+}
+
+ul li:hover .Submenu1 ul li{
+    height: 50px;
+    padding-top: 20px;
+    border-bottom: 2px solid orangered;
+}
+
+.Submenu2{
+    display: none;
+}
+
+ul li:hover .Submenu2{
+    display: block;
+    
+    background-color: black;
+    position: absolute;
+}
+
+ul li:hover .Submenu2 ul{
+    display: block;
+    list-style: none;
+}
+
+ul li:hover .Submenu2 ul li{
+    height: 50px;
+    padding-top: 20px;
+    border-bottom: 2px solid orangered;
+}
+
+.content{
+    background-color: black;
+    height: 450px;
+}
+
+.Heading1{
+    color: orangered;
+    font-size: 60px;
+    padding-top: 85px;
+    font-family: Arial;
+    padding-left: 50px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.Heading2{
+    color: white;
+    font-size: 15px;
+    font-family: Arial;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.item{
+    margin-top: 25px;
+}
+.item ul{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.item ul li{
+    color: rgb(252, 251, 251);
+    list-style: none;
+    margin-left: 50px;
+    width: 120px;
+    background-color: rgb(42, 32, 32);
+    border-radius: 20px;
+    font-size: 20px;
+    padding: 5px;
+
+}
+
+.btn1{
+    color: white;
+    background-color: orangered;
+    font-size: 22px;
+    padding: 5px;
+    width: 300px;
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.Content2{
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+
+.Container1{
+    background-color: black;
+    width: 60%;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 80px;
+    align-self: center;
+    margin: auto;
+}
+
+
+
+.h1{
+    color: white;
+    font-size: 25px;
+}
+
+.form{
+margin-top: 80px;
+padding: 40px;
+display: flex;
+justify-content: space-between;
+}
+
+form{
+    background-color: orangered;
+    padding: 50px;
+}
+
+.info{
+    font-size: 25px;
+    letter-spacing: 0.5px;
+
+}
+
+label{
+    font-size: 28px;
+    font-weight: bold;
+}
+
+input{
+    height: 50px;
+    width: 350px;
+}
+
+textarea{
+    height: 200px;
+    width: 350px;
+}
+
+.fb{
+    color: orangered;
+    padding: 8px;
+    background-color: white;
+    border: none;
+    width: 140px;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 30px;
+}
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tag h1{
+  color: orangered;
+  letter-spacing: 1.5px;
+  font-size: 55px;
+}
+
+.tag h2{
+    font-size: 40px;
+    margin-top: 15px;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+}
+
+.First1{
+ display: flex ;
+ flex-direction: row;
+ justify-content: space-between;
+ padding: 80px
+}
+footer{
+    background-color: black;
+    margin-top: 50px;
+}
+hr{
+    color: white;
+    margin:auto
+}
+.title{
+    color: white;
+    font-size: 20px;
+    
+    margin-top: 20px;
+}
+.contact{
+    font-size: 30px;
+    color: white;
+    
+}
+.t1{
+    font-size: 15px;
+    color: white;
+    
+    margin-top: 20px;
+}
+.t2{
+    font-size: 15px;
+    color: white;
+    
+    margin-top: 20px;
+}
+.facebook{
+    font-size: 15px;
+    color: white;
+    margin-top: 20px;
+}
